@@ -26,7 +26,7 @@ body{
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: 100px 1fr 0px;
+    grid-template-rows: 50px 1fr 0px;
     background-color:#fc0956;
 }
 
@@ -86,9 +86,64 @@ header{
 }
 
 .sorvete img{
-    transform: translate(355px, 5px);
-    width: 850px;
-    height: 610px;
+    position: relative;
+    z-index: -1;
+    transform: translate(310px, 2px);
+    width: 940px;
+    height: 667px;
 }
+.sorvete span{
+    position: absolute;
+    font-size: 150px;
+    transform: translate(-570px, 340px);
+    color: whitesmoke;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+.curva-cima{
+    position: absolute;
+    transform: translate(895px, -380px);
+    width: 20px;
+    height: 50px;
+}
+.curva-baixo{
+    position: absolute;
+    transform: translate(920px, -245px);
+    width: 30px;
+    height: 50px;
+}
+.yummy{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Khand', sans-serif;
+    transform: translate(470px,-65px);
+}
+.seta-left{
+    position: absolute;
+    transform: translate(50px,-400px);
+    width: 60px;
+}
+.seta-right{
+    position: absolute;
+    transform: translate(1430px,-400px);
+    width: 50px;
+}
+.seta-baixo{
+    position: absolute;
+    transform: translate(705px, -90px);
+    width: 30px;
+}
+
+.down{
+    border-style: none;
+}
+.setas-left-right{
+    border-style: none;
+}
+.menu-click{
+    border-style: none;
+}
+
 
 
