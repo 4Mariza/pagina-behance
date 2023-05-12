@@ -145,5 +145,47 @@ header{
     border-style: none;
 }
 
+@media (max-width: 768px){
+    .menu{
+        left:2px;
+        gap: 30px;
+    }
+    .redes{ 
+        transform: translateX(-550px);
+    }
+    .twt{
+        transform: translate(370px, 65px);
+    }
+    .face{
+        transform: translate(320px,32px);
+    }
+    .insta{
+        transform: translate(420px, -1px);
+    }
+    .sorvete img{
+        position: relative;
+        z-index: -1;
+        transform: translate(-20px, 5px);
+        width: 850px;
+        height: 737px;
+    }
+    .sorvete span{
+        font-size: 100px;
+        transform: translate(-730px, 385px);
+    }
+    .curva-cima{
+      transform: translate(460px, -425px);
+    }
+    .curva-baixo{
+        transform: translate(460px, -320px);
+    }
+    .yummy{
+        transform: translate(240px, -110px);
+    }
+    .seta-baixo{
+        transform: translate(330px, -100px);
+    }
+}
+
 
 
