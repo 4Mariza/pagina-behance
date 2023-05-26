@@ -26,7 +26,7 @@ body{
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: 50px 1fr 0px;
+    grid-template-rows: 50px 665px 0px;
     background-color:#fc0956;
 }
 
@@ -129,6 +129,46 @@ header{
     transform: translate(1430px,-400px);
     width: 50px;
 }
+.nav{
+    height: 100%px;
+    width: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    transform: translate(1500px, -480px);
+}
+.pagina1{
+    background-color:black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.line1{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 2px;
+    place-self: center;
+}
+.pagina2{
+    background-color:whitesmoke;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.line2{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 2px;
+    place-self: center;
+}
+.pagina3{
+    background-color:#fc0956;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: whitesmoke;
+}
 .seta-baixo{
     position: absolute;
     transform: translate(705px, -90px);
@@ -145,10 +185,10 @@ header{
     border-style: none;
 }
 
-@media (max-width: 768px){
+
+@media (max-width: 375px){
     .menu{
-        left:2px;
-        gap: 30px;
+        display: none;
     }
     .redes{ 
         transform: translateX(-550px);
@@ -165,26 +205,44 @@ header{
     .sorvete img{
         position: relative;
         z-index: -1;
-        transform: translate(-20px, 5px);
-        width: 850px;
-        height: 737px;
+        transform: translate(-190px, 300px);
+        width: 1600px;
+        height: 1300px;
     }
     .sorvete span{
-        font-size: 100px;
-        transform: translate(-730px, 385px);
+        font-size: 180px;
+        transform: translate(-1495px, 1175px);
     }
     .curva-cima{
-      transform: translate(460px, -425px);
+      transform: translate(725px, -250px);
+    }
+    .curva-cima img{
+        width: 150px;
     }
     .curva-baixo{
-        transform: translate(460px, -320px);
+        transform: translate(680px, -80px);
+    }
+    .curva-baixo img{
+        width: 250px;
     }
     .yummy{
-        transform: translate(240px, -110px);
+        transform: translate(330px, 50px);
+        font-size: 6rem;
     }
-    .seta-baixo{
-        transform: translate(330px, -100px);
+    .seta-left{
+        position: absolute;
+        transform: translate(50px,-400px);
+        width: 140px;
     }
+    .seta-right{
+        position: absolute;
+        transform: translate(1020px,-380px);
+        width: 100px;
+    }
+    .nav{
+        transform: rotate(-90deg), translate(900px);
+    }
+    
 }
 
 
