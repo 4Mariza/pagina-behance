@@ -56,33 +56,19 @@ header{
     gap: 36px;
     font-size: 12px;
     position: relative;
-    left: 630px;
+    left: 600px;
+    cursor: pointer;
 }
 .menu h2{
     margin-left: 10px;
 }
 
-.indicador_seta{
-    width: 90px;
-    height: 90px;
-    transform: translate(150px, -45px);
-    transform: rotate(135deg);
-}
-
-.twt{
+.redes a{
+    display: inline-flex;
+    position: relative;
     border-style: none;
-    transform: translate(400px, 45px);
     width: 30px;
-}
-.face{
-    border-style: none;
-    transform: translate(320px, 45px);
-    width: 30px;
-}
-.insta{
-    border-style: none;
-    transform: translate(380px, 45px);
-    width: 30px;
+    transform: translate(370px, 45px);
 }
 
 .sorvete img{
@@ -126,16 +112,18 @@ header{
 }
 .seta-right{
     position: absolute;
-    transform: translate(1430px,-400px);
+    transform: translate(1380px,-400px);
     width: 50px;
 }
 .nav{
-    height: 100%px;
+    height: 100%;
     width: 15px;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
-    transform: translate(1500px, -480px);
+    position: relative;
+    cursor: pointer;
+    gap: 3rem;
+    transform: translate(1460px, -480px);
 }
 .pagina1{
     background-color:black;
@@ -187,63 +175,132 @@ header{
 
 
 @media (max-width: 375px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
     .menu{
         display: none;
     }
-    .redes{ 
-        transform: translateX(-550px);
+    header{
+        height: 300px;
+        width: 100vw;
     }
-    .twt{
-        transform: translate(370px, 65px);
+    
+    .logo img{
+        width: 500px;
+        height: 190px;
+        display: flex;
+        cursor:pointer;
     }
-    .face{
-        transform: translate(320px,32px);
+    .retangulo1{
+        width: 130px;
+        height: 15px;
+        border-radius: 10px;
+        background-color: whitesmoke;
     }
-    .insta{
-        transform: translate(420px, -1px);
+    .retangulo2{
+        width: 130px;
+        height: 15px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+    }
+    .retangulo3{
+        width: 130px;
+        height: 15px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+    }
+    .hamburguer{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 200px;
+        height: 200px;
+        transform: translate(900px, 95px);
+    }
+    .redes{
+        display: flex;
+        gap: 80px;
+    }
+    .redes a{
+        display: flex;
+        flex-direction: row;
+        border-style: none;
+        width: 100px;
+        height: 130px;
+        transform: translate(-220px, 1775px);
     }
     .sorvete img{
         position: relative;
         z-index: -1;
-        transform: translate(-190px, 300px);
+        transform: translate(-210px, 200px);
         width: 1600px;
         height: 1300px;
     }
     .sorvete span{
         font-size: 180px;
-        transform: translate(-1495px, 1175px);
+        transform: translate(-1505px, 1075px);
     }
     .curva-cima{
-      transform: translate(725px, -250px);
+      transform: translate(705px, -320px);
     }
     .curva-cima img{
         width: 150px;
     }
     .curva-baixo{
-        transform: translate(680px, -80px);
+        transform: translate(670px, -180px);
     }
     .curva-baixo img{
         width: 250px;
     }
     .yummy{
-        transform: translate(330px, 50px);
+        transform: translate(330px, -5px);
         font-size: 6rem;
     }
     .seta-left{
         position: absolute;
-        transform: translate(50px,-400px);
-        width: 140px;
+        transform: translate(100px,-400px);
+        width: 125px;
     }
     .seta-right{
         position: absolute;
-        transform: translate(1020px,-380px);
+        transform: translate(970px,-400px);
         width: 100px;
     }
-    .nav{
-        transform: rotate(-90deg), translate(900px);
+    .seta-baixo{
+        display: none;
     }
-    
+    .nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 200px;
+        width: 500px;
+        transform: translate(430px, 250px);
+    }
+    .pagina1{
+        width: 45px;
+        height: 45px;
+    }
+    .pagina2{
+        width: 45px;
+        height: 45px;
+    }
+    .pagina3{
+        width: 45px;
+        height: 45px;
+    }
+    .line1{
+        transform: rotate(90deg);
+        width: 8px;
+        height: 80px;
+    }
+    .line2{
+        transform: rotate(90deg);
+        width: 8px;
+        height: 80px;
+    }
 }
-
-
-
