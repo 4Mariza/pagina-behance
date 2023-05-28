@@ -173,6 +173,113 @@ header{
     border-style: none;
 }
 
+@media(max-width: 768px){
+    body{
+        padding: 16px 16px;
+        width: 100vw;
+        height: 100vh;
+        grid-template-rows: 100px 1fr 100px;
+    }
+    header{
+        height: 150px;
+        width: 1500px;
+    }
+    .logo img{
+        display: flex;
+        margin-left: 16px;
+        width: 350px;
+    }
+    .slogan{
+        width: 250px;
+        height: 28px;
+        transform: translate(-1000px, 80px);
+        text-align: center;
+    }
+    .slogan h2{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .menu{
+        display: inline-flex;
+        position: relative;
+        font-size: 18px;
+        left: 25px;
+        gap: 26px;
+    }
+    .redes{
+        display: flex;
+    }
+    .redes a{
+        display: inline-flex;
+        height: 45px;
+        width: 75px;
+        transform: translate(-400px, 50px);
+    }
+
+    .sorvete img{
+        width: 1380px;
+        height: 1100px;
+        transform: translate(-120px, 150px);
+    }
+    .sorvete span{
+        font-size: 190px;
+        transform: translate(-1345px, 780px);
+    }
+    .curva-cima img{
+        width:150px;
+        transform: translate(-225px, -20px);
+    }
+    .curva-baixo img{
+        width: 200px;
+        transform: translate(-220px, -5px);
+    }
+    .yummy{
+        font-size: 60px;
+        transform: translate(360px, -45px);
+    }
+    .seta-right{
+        width: 70px;
+        transform: translate(1000px, -480px);
+    }
+    .seta-left{
+        width: 80px;
+        transform: translate(85px, -480px);
+    }
+    .down{
+        transform: translate(-210px, 85px);
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 200px;
+        width: 500px;
+        gap: 3rem;
+        transform: translate(410px, 95px);
+    }
+    .pagina1{
+        width: 45px;
+        height: 45px;
+    }
+    .pagina2{
+        width: 45px;
+        height: 45px;
+    }
+    .pagina3{
+        width: 45px;
+        height: 45px;
+    }
+    .line1{
+         transform: rotate(90deg);
+         width: 8px;
+         height: 80px;
+    }
+    .line2{
+         transform: rotate(90deg);
+         width: 8px;
+         height: 80px;
+     }
+}
 
 @media (max-width: 375px){
     body{
@@ -219,6 +326,7 @@ header{
         gap: 12px;
         width: 200px;
         height: 200px;
+        cursor: pointer;
         transform: translate(900px, 95px);
     }
     .redes{
@@ -231,7 +339,7 @@ header{
         border-style: none;
         width: 100px;
         height: 130px;
-        transform: translate(-220px, 1775px);
+        transform: translate(-280px, 1955px);
     }
     .sorvete img{
         position: relative;
@@ -245,19 +353,19 @@ header{
         transform: translate(-1505px, 1075px);
     }
     .curva-cima{
-      transform: translate(705px, -320px);
+      transform: translate(845px, -320px);
     }
     .curva-cima img{
-        width: 150px;
+        width: 180px;
     }
     .curva-baixo{
-        transform: translate(670px, -180px);
+        transform: translate(860px, -180px);
     }
     .curva-baixo img{
         width: 250px;
     }
     .yummy{
-        transform: translate(330px, -5px);
+        transform: translate(340px, -5px);
         font-size: 6rem;
     }
     .seta-left{
