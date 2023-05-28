@@ -122,7 +122,7 @@ header{
     flex-direction: column;
     position: relative;
     cursor: pointer;
-    gap: 3rem;
+    gap: .5rem;
     transform: translate(1460px, -480px);
 }
 .pagina1{
@@ -279,6 +279,7 @@ header{
         align-items: center;
         height: 200px;
         width: 500px;
+        gap: 3rem;
         transform: translate(430px, 250px);
     }
     .pagina1{
