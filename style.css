@@ -51,6 +51,11 @@ header{
    transform: translateY(-4px);
 }
 
+.slogan:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+}
+
 .menu{
     display: inline-flex;
     gap: 36px;
@@ -61,6 +66,11 @@ header{
 }
 .menu h2{
     margin-left: 10px;
+}
+
+.menu h2:hover{
+    color: black;
+    transition: 0.5s;
 }
 
 .redes a{
@@ -103,7 +113,7 @@ header{
     color: whitesmoke;
     font-size: 30px;
     font-family: 'Khand', sans-serif;
-    transform: translate(470px,-65px);
+    transform: translate(470px,-60px);
 }
 .seta-left{
     position: absolute;
@@ -199,6 +209,7 @@ header{
         font-size: 24px;
         font-weight: bold;
     }
+
     .menu{
         display: inline-flex;
         position: relative;
@@ -328,6 +339,13 @@ header{
         height: 200px;
         cursor: pointer;
         transform: translate(900px, 95px);
+    }
+
+    .drop_menu{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        overflow: hidden;
     }
     .redes{
         display: flex;
