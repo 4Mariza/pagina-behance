@@ -185,7 +185,7 @@ header{
 
 @media(max-width: 768px){
     body{
-        padding: 16px 16px;
+        padding: 0px 16px;
         width: 100vw;
         height: 100vh;
         grid-template-rows: 100px 1fr 100px;
@@ -196,68 +196,74 @@ header{
     }
     .logo img{
         display: flex;
-        margin-left: 16px;
-        width: 350px;
+        margin-left: 0px;
+        width: 130px;
+        transform: translate(-5px, -10px);
     }
     .slogan{
-        width: 250px;
-        height: 28px;
-        transform: translate(-1000px, 80px);
+        width: 140px;
+        height: 15px;
+        transform: translate(-1000px, 50px);
         text-align: center;
     }
     .slogan h2{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
     }
 
     .menu{
         display: inline-flex;
         position: relative;
-        font-size: 18px;
-        left: 25px;
-        gap: 26px;
+        font-size: 9px;
+        left: 0px;
+        gap: 2px;
+    }
+    .menu a{
+        margin-left: 7px;
+        font-size: 9px;
+        border-width: .8px;
     }
     .redes{
         display: flex;
     }
     .redes a{
         display: inline-flex;
-        height: 45px;
-        width: 75px;
-        transform: translate(-400px, 50px);
+        height: 25px;
+        width: 30px;
+        transform: translate(-230px, 40px);
     }
 
     .sorvete img{
-        width: 1380px;
-        height: 1100px;
-        transform: translate(-120px, 150px);
+        width: 850px;
+        height: 750px;
+        transform: translate(-125px, 10px);
     }
     .sorvete span{
-        font-size: 190px;
-        transform: translate(-1345px, 780px);
+        font-size: 95px;
+        transform: translate(-835px, 400px);
     }
     .curva-cima img{
-        width:150px;
-        transform: translate(-225px, -20px);
+        width:90px;
+        transform: translate(-555px, -50px);
     }
     .curva-baixo img{
-        width: 200px;
-        transform: translate(-220px, -5px);
+        width: 120px;
+        transform: translate(-560px, -95px);
     }
     .yummy{
-        font-size: 60px;
-        transform: translate(360px, -45px);
+        font-size: 40px;
+        transform: translate(180px, -110px);
     }
     .seta-right{
-        width: 70px;
-        transform: translate(1000px, -480px);
+        width: 50px;
+        transform: translate(500px, -440px);
     }
     .seta-left{
-        width: 80px;
-        transform: translate(85px, -480px);
+        width: 60px;
+        transform: translate(-5px, -440px);
     }
     .down{
-        transform: translate(-210px, 85px);
+        transform: translate(-480px, -35px);
     }
     .nav{
         display: flex;
@@ -290,6 +296,9 @@ header{
          width: 8px;
          height: 80px;
      }
+     .nav{
+         display: none;
+     }
 }
 
 @media (max-width: 375px){
@@ -306,26 +315,26 @@ header{
     }
     
     .logo img{
-        width: 500px;
-        height: 190px;
+        width: 170px;
+        height: 60px;
         display: flex;
         cursor:pointer;
     }
     .retangulo1{
-        width: 130px;
-        height: 15px;
+        width: 70px;
+        height: 8px;
         border-radius: 10px;
         background-color: whitesmoke;
     }
     .retangulo2{
-        width: 130px;
-        height: 15px;
+        width: 70px;
+        height: 8px;
         border-radius: 10px;
         background-color: whitesmoke;
     }
     .retangulo3{
-        width: 130px;
-        height: 15px;
+        width: 70px;
+        height: 8px;
         border-radius: 10px;
         background-color: whitesmoke;
     }
@@ -334,67 +343,60 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 12px;
-        width: 200px;
-        height: 200px;
+        gap: 8px;
+        width: 70px;
+        height: 70px;
         cursor: pointer;
-        transform: translate(900px, 95px);
-    }
-
-    .drop_menu{
-        display: flex;
-        position: absolute;
-        flex-direction: column;
-        overflow: hidden;
+        transform: translate(450px, 25px);
     }
     .redes{
         display: flex;
-        gap: 80px;
+        gap: 25px;
     }
     .redes a{
         display: flex;
         flex-direction: row;
         border-style: none;
-        width: 100px;
-        height: 130px;
-        transform: translate(-280px, 1955px);
+        width: 55px;
+        height: 55px;
+        transform: translate(-90px, 895px);
     }
     .sorvete img{
         position: relative;
         z-index: -1;
-        transform: translate(-210px, 200px);
-        width: 1600px;
-        height: 1300px;
+        transform: translate(-220px, 30px);
+        width: 1000px;
+        height: 800px;
     }
     .sorvete span{
-        font-size: 180px;
-        transform: translate(-1505px, 1075px);
+        font-size: 100px;
+        transform: translate(-1005px, 535px);
     }
     .curva-cima{
-      transform: translate(845px, -320px);
+      transform: translate(895px, -290px);
     }
     .curva-cima img{
-        width: 180px;
+        width: 100px;
     }
     .curva-baixo{
-        transform: translate(860px, -180px);
+        transform: translate(900px, -180px);
     }
     .curva-baixo img{
-        width: 250px;
+        width: 150px;
     }
     .yummy{
-        transform: translate(340px, -5px);
-        font-size: 6rem;
+        transform: translate(180px, -65px);
+        font-size: 2.5rem;
     }
     .seta-left{
         position: absolute;
-        transform: translate(100px,-400px);
-        width: 125px;
+        transform: translate(20px,-380px);
+        width: 95px;
     }
     .seta-right{
         position: absolute;
-        transform: translate(970px,-400px);
-        width: 100px;
+        transform: translate(440px,-380px);
+        width: 75px;
     }
     .seta-baixo{
         display: none;
@@ -403,31 +405,31 @@ header{
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 200px;
+        height: 100px;
         width: 500px;
-        gap: 3rem;
-        transform: translate(430px, 250px);
+        gap: 2.5rem;
+        transform: translate(155px, -15px);
     }
     .pagina1{
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
     }
     .pagina2{
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
     }
     .pagina3{
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
     }
     .line1{
         transform: rotate(90deg);
-        width: 8px;
-        height: 80px;
+        width: 5px;
+        height: 60px;
     }
     .line2{
         transform: rotate(90deg);
-        width: 8px;
-        height: 80px;
+        width: 5px;
+        height: 60px;
     }
 }
