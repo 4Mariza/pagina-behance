@@ -30,6 +30,7 @@ body{
     background-color:#fc0956;
 }
 
+
 header{
     width: 100vw;  
     color:whitesmoke;
@@ -183,30 +184,31 @@ header{
     border-style: none;
 }
 
-@media(max-width: 768px){
+@media(max-width: 1024px){
     body{
         padding: 0px 16px;
         width: 100vw;
         height: 100vh;
-        grid-template-rows: 100px 1fr 100px;
+        background-attachment: fixed;
     }
     header{
         height: 150px;
-        width: 1500px;
+        width: 100vw;
     }
     .logo img{
         display: flex;
         margin-left: 0px;
-        width: 130px;
+        width: 170px;
         transform: translate(-5px, -10px);
     }
     .slogan{
-        width: 140px;
-        height: 15px;
-        transform: translate(-1000px, 50px);
+        width: 180px;
+        height: 20px;
+        transform: translate(-790px, 40px);
         text-align: center;
     }
     .slogan h2{
+        width: 165px;
         font-size: 20px;
         font-weight: bold;
     }
@@ -214,13 +216,12 @@ header{
     .menu{
         display: inline-flex;
         position: relative;
-        font-size: 9px;
-        left: 0px;
-        gap: 2px;
+        font-size: 14px;
+        left: 10px;
+        gap: 35px;
     }
-    .menu a{
-        margin-left: 7px;
-        font-size: 9px;
+    .idioma{
+        font-size: 24px;
         border-width: .8px;
     }
     .redes{
@@ -228,42 +229,42 @@ header{
     }
     .redes a{
         display: inline-flex;
-        height: 25px;
-        width: 30px;
-        transform: translate(-230px, 40px);
+        height: 35px;
+        width: 40px;
+        transform: translate(-260px, 40px);
     }
 
     .sorvete img{
-        width: 850px;
-        height: 750px;
-        transform: translate(-125px, 10px);
+        width: 1150px;
+        height: 950px;
+        transform: translate(-165px, 90px);
     }
     .sorvete span{
-        font-size: 95px;
-        transform: translate(-835px, 400px);
+        font-size: 125px;
+        transform: translate(-1100px, 660px);
     }
     .curva-cima img{
         width:90px;
-        transform: translate(-555px, -50px);
+        transform: translate(-385px, 10px);
     }
     .curva-baixo img{
         width: 120px;
-        transform: translate(-560px, -95px);
+        transform: translate(-370px, -5px);
     }
     .yummy{
         font-size: 40px;
-        transform: translate(180px, -110px);
+        transform: translate(275px, -65px);
     }
     .seta-right{
         width: 50px;
-        transform: translate(500px, -440px);
+        transform: translate(730px, -440px);
     }
     .seta-left{
         width: 60px;
-        transform: translate(-5px, -440px);
+        transform: translate(10px, -440px);
     }
     .down{
-        transform: translate(-480px, -35px);
+        transform: translate(-375px, 35px);
     }
     .nav{
         display: flex;
@@ -300,11 +301,11 @@ header{
          display: none;
      }
 }
-
-@media (max-width: 375px){
+@media (max-width: 768px){
     body{
         width: 100vw;
         height: 100vh;
+        background-attachment: fixed;
     }
     .menu{
         display: none;
@@ -315,10 +316,12 @@ header{
     }
     
     .logo img{
-        width: 170px;
-        height: 60px;
+        width: 190px;
+        height: 70px;
         display: flex;
         cursor:pointer;
+        transform: translateY(-100px);
+
     }
     .retangulo1{
         width: 70px;
@@ -347,7 +350,7 @@ header{
         width: 70px;
         height: 70px;
         cursor: pointer;
-        transform: translate(450px, 25px);
+        transform: translate(630px, -80px);
     }
     .redes{
         display: flex;
@@ -357,35 +360,35 @@ header{
         display: flex;
         flex-direction: row;
         border-style: none;
-        width: 55px;
-        height: 55px;
-        transform: translate(-90px, 895px);
+        width: 65px;
+        height: 65px;
+        transform: translate(-90px, 1155px);
     }
     .sorvete img{
         position: relative;
         z-index: -1;
-        transform: translate(-220px, 30px);
-        width: 1000px;
-        height: 800px;
+        transform: translate(-240px, 90px);
+        width: 1250px;
+        height: 1000px;
     }
     .sorvete span{
-        font-size: 100px;
-        transform: translate(-1005px, 535px);
+        font-size: 120px;
+        transform: translate(-1215px, 755px);
     }
     .curva-cima{
-      transform: translate(895px, -290px);
+      transform: translate(845px, -330px);
     }
     .curva-cima img{
         width: 100px;
     }
     .curva-baixo{
-        transform: translate(900px, -180px);
+        transform: translate(850px, -210px);
     }
     .curva-baixo img{
         width: 150px;
     }
     .yummy{
-        transform: translate(180px, -65px);
+        transform: translate(250px, -35px);
         font-size: 2.5rem;
     }
     .seta-left{
@@ -395,7 +398,7 @@ header{
     }
     .seta-right{
         position: absolute;
-        transform: translate(440px,-380px);
+        transform: translate(630px,-380px);
         width: 75px;
     }
     .seta-baixo{
@@ -408,7 +411,7 @@ header{
         height: 100px;
         width: 500px;
         gap: 2.5rem;
-        transform: translate(155px, -15px);
+        transform: translate(255px, 65px);
     }
     .pagina1{
         width: 30px;
