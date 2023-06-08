@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    width: 8vw;
+    height: 4vh;
+    color: whitesmoke;
+}
+ul,ol,li{
+    list-style: none;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#fc0956;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+
+header{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    place-items: center;
+}
+.logo img{
+    width: 15vw;
+}
+
+
+.menu{
+    width: 40vw;
+    height: 15vh;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    place-items: center;
+    margin-left: 45%;
+}
+
+
+.seta__idioma{
+    width: 18%;
+    place-self: end;
+}
+
+.redes{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    background: violet;
+}
+.redes img{
+    width: 2vw;
+    height: 5vh;
+}
+
+
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+}
+.casquinha{
+    position: absolute;
+    z-index: -1;
+    width: 55%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.delicious{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+
+.setas{
+    display:grid;
+    grid-template-columns: 100px 100px;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.nav{
+    height: 100%;
+    width: 15px;
+    display: flex;
+    flex-direction: column;
+    place-self: end;
+    position: relative;
+    cursor: pointer;
+    gap: .5rem;
+}
+.pagina1{
+    background-color:black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.line1{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 2px;
+    place-self: center;
+}
+.pagina2{
+    background-color:whitesmoke;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.line2{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 2px;
+    place-self: center;
+}
+.pagina3{
+    background-color:#fc0956;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+.down{
+    display: flex;
+    place-content: center;
+    justify-self: center;
+}
+.down img{
+    width: 5vw;
+    height:5vh;
+    
+}
+
