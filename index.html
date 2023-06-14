@@ -3,16 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Khand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./01style.css">
     <title>Ice Cream - Stork</title>
 </head>
 <body>
@@ -20,55 +14,48 @@
         <div class="logo">
             <img src="./img/logo-stork.png" class="stork" alt="logo da empresa">
         </div>
-        <div class="menu">
-            <h2 class="link">Home</h2>
-            <h2 class="link">About Us</h2">
-            <h2 class="link">Brands & Products</h2>
-            <h2 class="link">News</h2>
-            <h2 class="link">Contact</h2>
-            <a href="#">
-                <h2>EN</h2 class="idioma">
-                <img src="./img/arrow-up-340-svgrepo-com (1).svg" class="seta-en" alt="seta para baixo">
-            </a>
-        </div>
-        <div class="slogan">
-            <h2>so natural,so real</h2>
-        </div>
-        <div class="redes">
-            <a href="https://twitter.com/storkice" class="twt">
-                <img src="./img/twitter-3-logo-svgrepo-com.svg" class="twitter" alt="botão para twitter da empresa">
-            </a>
-            <a href="https://www.facebook.com/people/Stork-ice/100028099077008/" class="face">
-                <img src="./img/facebook-3-logo-svgrepo-com.svg" class="facebook" alt="botão para facebook da empresa">
-            </a>
-            <a href="https://www.instagram.com/stork_ice/" class="insta">
-                <img src="./img/instagram-svgrepo-com.svg" class="instagram" alt="botão para instagram da empresa">
-            </a>
-        </div>
+        <span class="slogan">
+            <h2>so natural, so real</h2>
+        </span>
         <div class="hamburguer">
             <div class="retangulo1"></div>
             <div class="retangulo2"></div>
             <div class="retangulo3"></div>
         </div>
+        <nav class="menu">
+           <a href="#" class="menu__pointer">Home</a>
+           <a href="#" class="menu__pointer">About Us</a>
+           <a href="#" class="menu__pointer">Brands & Products</a>
+           <a href="#" class="menu__pointer">News</a>
+           <a href="#" class="menu__pointer">Contacts</a>
+           <a href="#" class="idioma">EN
+               <img src="./img/arrow-up-340-svgrepo-com (1).svg" alt="" class="seta__idioma">
+           </a>
+        </nav>
+        <div class="redes">
+         <a href="https://twitter.com/storkice" class="twitter">
+             <img src="./img/twitter-3-logo-svgrepo-com.svg" alt="twitter">
+         </a>
+         <a href="https://www.facebook.com/people/Stork-ice/100028099077008/" class="facebook">
+             <img src="./img/facebook-3-logo-svgrepo-com.svg" alt="facebook">
+         </a>
+         <a href="https://www.instagram.com/stork_ice/" class="instagram">
+             <img src="./img/instagram-svgrepo-com.svg" alt="instagram">
+         </a>
+        </div>
     </header>
     <main>
         <div class="sorvete">
-            <img src="./img/sorvete.png" alt="casquinha de morango">
-            <span>DELICIOUS</span>
+            <img src="./img/sorvete.png" alt="casquinha de morango" class="casquinha">
+            <img src="./img/delicious.png" alt="Delicious" class="delicious">
+            <div class="setas">
+                <img src="./img/arrow-left-svgrepo-com.svg" alt="" class="seta__esquerda">
+                <img src="./img/right-arrow-svgrepo-com.svg" alt="" class="seta__direita">
+            </div>
         </div>
-                <div class="yummy">
-                    <span class="yummy">Yummy!</span>
-                </div>
-        <a href="" class="setas-left-right">
-            <img src="./img/arrow-left-svgrepo-com.svg" class="seta-left" alt="seta para a esquerda">
-            <img src="./img/right-arrow-svgrepo-com.svg" class="seta-right" alt="seta para a direita">
-        </a>
-        <div class="curva-cima">
-            <img src="./img/parenleft-svgrepo-com.svg" alt="curva">
-        </div>
-        <div class="curva-baixo">
-            <img src="./img/parenleft2-svgrepo-com.svg" alt="curva">
-        </div>
+
+        
+        
         <a href='' class="down">
             <img src="./img/arrow-right-333-svgrepo-com.svg" class="seta-baixo" alt="seta para baixo">
         </a>
@@ -79,6 +66,7 @@
             <div class="line2"></div>
             <div class="pagina3"></div>
         </section>
+
     </main>
     <footer></footer>
 </body>
