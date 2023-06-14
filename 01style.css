@@ -53,6 +53,9 @@ header{
 
 }
 
+.menu__hamburguer{
+    display: none;
+}
 
 .menu{
     width: 20vw;
@@ -68,17 +71,23 @@ header{
 .menu__pointer{
     width: 35vw;
     display: flex;
+    font-weight: bold;
     place-self: start;
 }
 
+.menu__pointer:hover{
+    color: black;
+    transition: 0.5s;
+}
+
 .seta__idioma{
-    width: 50%;
+    width: 60%;
     place-self: center;
 }
 
 .idioma {
     font-size: medium;
-    width: 16vw;
+    width: 26vw;
     border-style: solid;
     border-color: whitesmoke;
     border-width: 2px;
