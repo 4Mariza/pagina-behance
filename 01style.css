@@ -61,7 +61,6 @@ header{
     width: 20vw;
     height: 10vh;
     gap: 25%;
-    color: whitesmoke;
     display: flex;
     font-size: 1.3rem;
     margin-left: 30%;
@@ -71,6 +70,7 @@ header{
 .menu__pointer{
     width: 35vw;
     display: flex;
+    color: whitesmoke;
     font-weight: bold;
     place-self: start;
 }
